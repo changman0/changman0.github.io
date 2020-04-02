@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="PSY371B Form, Chang Caleb, Caleb Chang">
+    <script>
+      function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+      }
+    </script>
       <style>
         body {
           font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +26,7 @@
   <p style="text-align:center;">If there are any concerns or questions, you may email Caleb at caleb.chang@gordon.edu</p>
 
   <div id="googleForm">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc7X2oGu-9BWKODQwE-uOhyZQ1o9G64CvLItuvW-_73J3zecg/viewform?embedded=true" width="640" height="9415" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc7X2oGu-9BWKODQwE-uOhyZQ1o9G64CvLItuvW-_73J3zecg/viewform?embedded=true" width="640" height="9415" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" onload="resizeIframe(this)">Loading…</iframe>
   </div>
 
 </body>
