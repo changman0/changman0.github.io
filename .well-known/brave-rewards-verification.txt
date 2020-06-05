@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: changcaleb.com
+Token: e90c3d69fcf53bdf11f95016b47b2ef4b97829ca750ecf095f7c62b707115317
